@@ -45,7 +45,7 @@ public class Point {
     public boolean equals(Point otherPoint) {
         boolean xEqual = x == otherPoint.x;
         boolean yEqual = y == otherPoint.y;
-        
+        return xEqual && yEqual;
     }
 
     public String toString() {
